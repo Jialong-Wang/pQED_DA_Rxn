@@ -3,7 +3,8 @@ Title: Investigating Cavity Quantum Electrodynamics-Enabled Endo/Exo- Selectivit
 ChemRxiv
 
 Abstract:
-Contact Information:
+
+Contact Information: bweight@ur.rochester.edu
 
 Notes:
 1. The initial optimized geometries for reacants (R), transition states (TS), and products (P) are obtained from Ref 1. 
