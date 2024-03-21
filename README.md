@@ -1,6 +1,5 @@
 Title: Investigating Cavity Quantum Electrodynamics-Enabled Endo/Exo- Selectivities in a Diels-Alder Reaction
-
-ChemRxiv
+10.26434/chemrxiv-2024-6xsr6
 
 Abstract:
 
