@@ -15,7 +15,7 @@ from scipy.special import hermite
 from scipy.special import factorial
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 
-
+##### Obtained from Braden M. Weight #####
 
 """
 Install pygifcicle:
