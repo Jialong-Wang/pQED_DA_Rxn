@@ -12,4 +12,4 @@ Notes:
 
 References:
 1. Pavošević, F., Smith, R.L. & Rubio, A. Computational study on the catalytic control of endo/exo Diels-Alder reactions by cavity quantum vacuum fluctuations. Nat Commun 14, 2766 (2023). https://doi.org/10.1038/s41467-023-38474-w
-2. 
+2. Braden M, Weight, Ab_Initio_Polariton_Properties, GitHub repository (2023). https://github.com/bradenmweight/Ab_Initio_Polariton_Properties/tree/main
