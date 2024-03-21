@@ -16,6 +16,7 @@ from scipy.special import factorial
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 
 ##### Obtained from Braden M. Weight #####
+# Compute various properties, including difference density
 
 """
 Install pygifcicle:
