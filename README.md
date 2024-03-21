@@ -11,11 +11,10 @@
 4. Within the TD_R directory, modify the polarization vectors in the input section of the Python codes to achieve the desired directions (X-, Y-, Z-polarizations or specific theta/phi angles).
 
 **Codes Contact Information:**
-jialongwang@rochester.edu
-bweight@ur.rochester.edu
+jialongwang@rochester.edu; bweight@ur.rochester.edu; pengfei.huo@rochester.edu
 
 **References:**
 1. Pavošević, F., Smith, R.L. & Rubio, A. Computational study on the catalytic control of endo/exo Diels-Alder reactions by cavity quantum vacuum fluctuations. Nat Commun 14, 2766 (2023). https://doi.org/10.1038/s41467-023-38474-w.
-   See also the corresponding GitHub repository: https://github.com/fabijan5/qed-diels-alder
-2. Braden M, Weight, Ab_Initio_Polariton_Properties, GitHub repository (2023). https://github.com/bradenmweight/Ab_Initio_Polariton_Properties/tree/main
+   See also the corresponding GitHub repository: https://github.com/fabijan5/qed-diels-alder/blob/main/Supplementary_Data.txt
+2. Weight, B. M. Ab_Initio_Polariton_Properties, GitHub repository (2024). https://github.com/bradenmweight/Ab_Initio_Polariton_Properties/tree/main
 
