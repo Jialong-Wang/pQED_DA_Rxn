@@ -1,0 +1,35 @@
+#!/bin/bash
+#SBATCH -p debug
+#SBATCH -o TD
+#SBATCH --mem=30GB
+#SBATCH -t 1:00:00
+#SBATCH -n 12
+
+NCPUS=12
+
+#start the license server
+#/scratch/phuo_lab/Program/flexnet/bin/lmgrd -l +/scratch/phuo_lab/Scratch/qchemlm.log -c /scratch/phuo_lab/Program/flexnet/etc
+
+INPUT_FILE="QCHEM.in"
+OUTPUT_FILE="QCHEM.out"
+
+#QCHEM Environment
+QCHEM_HOME=/scratch/phuo_lab/Program/Qchem
+export QC=$QCHEM_HOME
+source $QCHEM_HOME/qcenv.sh
+ulimit -s unlimited
+
+SUB_DIR=$SLURM_SUBMIT_DIR
+
+export QCSCRATCH="/local_scratch/$SLURM_JOB_ID/QCSCRATCH"
+export QCLOCALSCR="/local_scratch/$SLURM_JOB_ID/QCLOCALSCR"
+
+cd $SUB_DIR
+
+mkdir -p $QCSCRATCH
+mkdir -p $QCLOCALSCR
+
+qchem -nt $NCPUS $INPUT_FILE $OUTPUT_FILE save >& log
+
+cp -rf $QCSCRATCH/save $SUB_DIR
+rm -rf /local_scratch/$SLURM_JOB_ID
