@@ -6,7 +6,7 @@
 
 **Implementation Notes:**
 1. The initial optimized geometries for reacants (R), transition states (TS), and products (P) are obtained from Ref 1. 
-2. PF codes have been modified based on the work of author Braden from Reference 2.
+2. PF codes have been modified based on the work of author Braden. See Reference 2.
 3. Example files can be found in the TD_R directory; the name and corresponding coordinates can be changed to TS or P as needed.
 4. Within the TD_R directory, modify the polarization vectors in the input section of the Python codes to achieve the desired directions (X-, Y-, Z-polarizations or specific theta/phi angles).
 
